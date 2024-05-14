@@ -22,4 +22,3 @@ pip install fastapi pymongo uvicorn
 
 uvicorn index:app --reload
 
-source venv/Scripts/activate
