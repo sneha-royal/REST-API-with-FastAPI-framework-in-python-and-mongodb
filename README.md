@@ -1,13 +1,17 @@
 # REST-API-with-FastAPI-framework-in-python-and-mongodb
 
-##Setup env
-python -m venv fastapi
+Setup env
 
-##activate environmaent
+virtualenv venv
+For Linux/Mac
+
+source venv/bin/activate
+For Windows
+
 source venv/Scripts/activate
+Install package
 
-##nstall packages
 pip install fastapi pymongo uvicorn
+Start server
 
-##start the server
-uvicorn main:app --reload
+uvicorn index:app --reload
